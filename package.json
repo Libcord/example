@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.1",
-    "glob": "^7.1.7",
+    "glob": "^8.0.3",
     "libcord": "^0.1.0"
   }
 }
