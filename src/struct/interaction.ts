@@ -1,4 +1,4 @@
-import { ApplicationCommandType, ApplicationCommandOption } from "libcord/lib/src";
+import { ApplicationCommandType, ApplicationCommandOption } from "libcord";
 import CustomClient from "./CustomClient";
 
 export interface InteractionOptions {

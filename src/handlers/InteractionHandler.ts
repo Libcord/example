@@ -2,7 +2,7 @@ import glob from "glob";
 import path from "node:path";
 import Interaction from "../struct/interaction";
 import CustomClient from "../struct/CustomClient";
-import { ApplicationCommandBase } from "libcord/lib/src";
+import { ApplicationCommandBase } from "libcord";
 
 export default class InteractionHandler {
   public client: CustomClient;

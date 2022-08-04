@@ -1,6 +1,6 @@
 import Interaction from "../../struct/interaction";
 import CustomClient from "../../struct/CustomClient";
-import { ApplicationCommandType, CommandInteraction } from "libcord/lib/src";
+import { ApplicationCommandType, CommandInteraction } from "libcord";
 
 export default class PingCommand extends Interaction {
   constructor(client: CustomClient) {

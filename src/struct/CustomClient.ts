@@ -1,4 +1,4 @@
-import { Client, ClientOptions, Collection } from "libcord/lib/src";
+import { Client, ClientOptions, Collection } from "libcord";
 import Interaction from "./interaction";
 
 export default class CustomClient extends Client {
