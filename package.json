@@ -32,7 +32,7 @@
     "tabWidth": 2
   },
   "dependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "glob": "^7.1.7",
     "libcord": "^0.3.0"
   }
