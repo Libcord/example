@@ -3,7 +3,9 @@ import CustomClient from "./struct/CustomClient";
 import InteractionHandler from "./handlers/InteractionHandler";
 dotenv.config();
 
-const client = new CustomClient();
+const client = new CustomClient({
+  intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_PRESENCES"],
+});
 
 client.on("ready", () => {
   console.log(`${client.user?.username} is ready`);
